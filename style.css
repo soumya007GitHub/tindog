@@ -1,0 +1,131 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    width : 100%;
+}
+#header{
+    background-color: #ff4c68;
+    padding: 2% 10%;
+}
+.below-nav{
+    padding : 3% 2% 0%;
+}
+#brand-logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size : 2.5rem;
+    cursor : pointer;
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    cursor : pointer;
+}
+.pb-2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+#tindog-mockup{
+    width : 50%;
+    transform: rotate(25deg);
+    margin-top : auto;
+    position : absolute;
+    right: 30%;
+}
+#about{
+    text-align: center;
+    padding : 8% 11% 2%;
+    background-color: white;
+    position : relative;
+    z-index : 1;
+}
+.icons{
+    font-size: 3rem;
+    margin-bottom: 1%;
+    color: #ef8172;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+.about-tinDog{
+    padding-bottom : 3rem;
+    display: inline-block;
+}
+#about h2{
+    font-weight: bold;
+}
+#testimonials{
+    display : block;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+.carousel-item{
+    padding : 2% 11% 5%;
+}
+#testimonials img{
+    border-radius: 100%;
+    width : 10%;
+}
+#testimonials h4{
+    font-weight: thin;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* width : 600px; */
+}
+#clients{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom : 3%;
+}
+.clinets-images{
+    width : 15%;
+    margin: 20px 20px 50px;
+}
+#bottom-part{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding : 5% 10%;
+}
+#footer{
+    margin-top : 20px;
+    text-align: center;
+}
+
+
+/* -- Media Queries --  */
+
+@media (max-width: 991px){
+    .below-nav{
+        text-align: center;
+    }
+    #header{
+        padding-bottom : 20px;
+    }
+    #tindog-mockup{
+        position : static;
+        margin-top : 20px;
+        transform: rotate(0deg);
+    }
+}
+@media (max-width: 399px){
+    /* .playstore-btn{
+        margin-top : 10px;
+    } */
+    #testimonials h4{
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    #clients img{
+        width : 30%;
+    }
+}
+@media (min-width: 991px){
+    .btn1{
+        justify-content: end;
+    }
+}
